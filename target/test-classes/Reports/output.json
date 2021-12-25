@@ -1,0 +1,420 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify the select all fields on search hotel page",
+        "description": "",
+        "id": "verify-the-adactin-hotel-webpage;verify-the-select-all-fields-on-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18656363520,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should on adactinhotel page",
+            "match": {
+              "location": "Step.user_should_on_adactinhotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4654081208,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should login \"LakshmananSanthanam\",\"Lak@1999\"and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LakshmananSanthanam\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Lak@1999\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Step.user_should_login_and_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3049576501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select \"Sydney\",\"Hotel Creek\",\"Standard\",\"2 - Two\",\"22/12/2021\",\"22/12/2021\",\"1 - One\",\"1 - One\" and search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"22/12/2021\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"22/12/2021\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 99
+                }
+              ],
+              "location": "Step.user_should_select_and_search(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94458381,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify  navigate to \"Select Hotel\"  message on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Step.verify_navigate_to_message_on_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdactinPage"
+          },
+          {
+            "name": "@SelectHotel"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify the select mandatory fields on search hotel page",
+        "description": "",
+        "id": "verify-the-adactin-hotel-webpage;verify-the-select-mandatory-fields-on-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15891677675,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should on adactinhotel page",
+            "match": {
+              "location": "Step.user_should_on_adactinhotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3578235641,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should login \"LakshmananSanthanam\",\"Lak@1999\"and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LakshmananSanthanam\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Lak@1999\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Step.user_should_login_and_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2029005396,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should select mandatory fields \"Sydney\",\"2 - Two\",\"15/12/2021\",\"17/12/2021\",\"2 - Two\" and search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"15/12/2021\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"17/12/2021\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 81
+                }
+              ],
+              "location": "Step.user_should_select_mandatory_fields_and_search(String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72395709,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify  navigate to \"Select Hotel\"  page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select Hotel\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Step.verify_navigate_to_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdactinPage"
+          },
+          {
+            "name": "@SearchHotel"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify the checking the date in search hotel page",
+        "description": "",
+        "id": "verify-the-adactin-hotel-webpage;verify-the-checking-the-date-in-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19266152731,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should on adactinhotel page",
+            "match": {
+              "location": "Step.user_should_on_adactinhotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4705347695,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should login \"LakshmananSanthanam\",\"Lak@1999\"and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LakshmananSanthanam\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Lak@1999\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Step.user_should_login_and_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 453689354,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should enter uneven dates \"15/12/2022\",\"17/12/2020\" and search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15/12/2022\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"17/12/2020\"",
+                  "offset": 44
+                }
+              ],
+              "location": "Step.user_should_enter_uneven_dates_and_search(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91757727,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify the error messsages \"Check-In Date shall be before than Check-Out Date\" and \"Check-Out Date shall be after than Check-In Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check-In Date shall be before than Check-Out Date\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Check-Out Date shall be after than Check-In Date\"",
+                  "offset": 83
+                }
+              ],
+              "location": "Step.verify_the_error_messsages_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdactinPage"
+          },
+          {
+            "name": "@DateChecking"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Verify the search the hotel without entering data",
+        "description": "",
+        "id": "verify-the-adactin-hotel-webpage;verify-the-search-the-hotel-without-entering-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21096947909,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User should on adactinhotel page",
+            "match": {
+              "location": "Step.user_should_on_adactinhotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6113374689,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should login \"LakshmananSanthanam\",\"Lak@1999\"and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LakshmananSanthanam\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Lak@1999\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Step.user_should_login_and_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92371557,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User without entering data and search",
+            "match": {
+              "location": "Step.user_without_entering_data_and_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50247022,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Verify the \"Please Select a Location\" message got successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please Select a Location\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Step.verify_the_message_got_successful(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdactinPage"
+          },
+          {
+            "name": "@WithoutEnter"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Adactin hotel webpage",
+    "description": "",
+    "id": "verify-the-adactin-hotel-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Select.feature",
+    "tags": [
+      {
+        "name": "@AdactinPage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
